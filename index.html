@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Printer Support Hub | Printer Setup & Troubleshooting</title>
+<meta name="description" content="Printer Support Hub provides printer setup guidance, installation help, Wi-Fi connection assistance and troubleshooting information.">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #263449;
+    background: #f5f8fc;
+    line-height: 1.6;
+}
+
+header {
+    background: #fff;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px #00000010;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0756b8;
+}
+
+nav a {
+    text-decoration: none;
+    color: #263449;
+    margin-left: 22px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #0875e1;
+}
+
+.hero {
+    background: linear-gradient(120deg,#063c83,#0879df);
+    color: white;
+    padding: 90px 7%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 43px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #0756b8;
+    padding: 13px 28px;
+    margin-top: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #e6f0ff;
+}
+
+section {
+    padding: 65px 7%;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.heading h2 {
+    font-size: 31px;
+    color: #0756b8;
+}
+
+.heading p {
+    color: #68778a;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 22px;
+}
+
+.card {
+    background: white;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px #00000009;
+    text-align: center;
+    border: 1px solid #e9eef5;
+}
+
+.card .icon {
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #0756b8;
+}
+
+.card p {
+    color: #68778a;
+}
+
+.light {
+    background: #eaf2fc;
+}
+
+.steps {
+    max-width: 850px;
+    margin: auto;
+}
+
+.step {
+    background: white;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.step h3 {
+    color: #0756b8;
+}
+
+.contact {
+    background: #073d80;
+    color: white;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.contact a {
+    color: white;
+}
+
+.contact form {
+    max-width: 550px;
+    margin: 25px auto 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 110px;
+    resize: vertical;
+}
+
+button {
+    padding: 14px 30px;
+    background: #ffb900;
+    color: #14243a;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background: #062b58;
+    color: white;
+    padding: 20px;
+}
+
+@media(max-width:768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+        display: inline-block;
+        font-size: 13px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 45px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Printer Support Hub</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#brands">Brands</a>
+        <a href="#services">Services</a>
+        <a href="#guide">Guides</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+    <h1>Welcome to Printer Support Hub</h1>
+    <p>
+        Find helpful information for printer setup, driver
+        installation, wireless connectivity and common
+        printer troubleshooting.
+    </p>
+    <a href="#services" class="btn">Explore Support</a>
+</section>
+
+<!-- BRANDS -->
+<section id="brands">
+    <div class="heading">
+        <h2>Printer Brands</h2>
+        <p>Explore setup and troubleshooting information by brand.</p>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <div class="icon">🖨️</div>
+            <h3>HP Printers</h3>
+            <p>Setup instructions and HP printer troubleshooting resources.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🖨️</div>
+            <h3>Canon Printers</h3>
+            <p>Canon printer installation and connectivity guidance.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🖨️</div>
+            <h3>Epson Printers</h3>
+            <p>Epson printer setup and printing assistance.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🖨️</div>
+            <h3>Brother Printers</h3>
+            <p>Brother printer configuration and support guides.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🖨️</div>
+            <h3>Laser Printers</h3>
+            <p>Information about laser printer installation and maintenance.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🖨️</div>
+            <h3>Wireless Printers</h3>
+            <p>Learn how to connect printers to your wireless network.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="light" id="services">
+    <div class="heading">
+        <h2>Our Support Resources</h2>
+        <p>Explore useful printer setup and troubleshooting information.</p>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <div class="icon">⚙️</div>
+            <h3>Printer Setup</h3>
+            <p>Learn how to configure your printer for first-time use.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💻</div>
+            <h3>Driver Installation</h3>
+            <p>Find guidance for installing the correct printer drivers.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📶</div>
+            <h3>Wi-Fi Connection</h3>
+            <p>Learn how to connect your printer to your home or office network.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔧</div>
+            <h3>Printer Troubleshooting</h3>
+            <p>Explore solutions for common printing problems.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📄</div>
+            <h3>Printing Problems</h3>
+            <p>Get information about paper jams and print quality issues.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🖥️</div>
+            <h3>Computer Compatibility</h3>
+            <p>Learn about printer compatibility with Windows and Mac.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GUIDES -->
+<section id="guide">
+    <div class="heading">
+        <h2>Printer Setup Guide</h2>
+        <p>Follow these basic steps to get started.</p>
+    </div>
+
+    <div class="steps">
+        <div class="step">
+            <h3>Step 1: Unpack Your Printer</h3>
+            <p>Remove packaging materials and place the printer on a flat surface.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 2: Connect Power</h3>
+            <p>Connect the power cable and switch on your printer.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 3: Install Printer Drivers</h3>
+            <p>Download compatible drivers from the printer manufacturer's official website.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 4: Connect Your Printer</h3>
+            <p>Connect using USB or follow your printer's Wi-Fi setup instructions.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 5: Print a Test Page</h3>
+            <p>Check printer settings and print a test page to verify installation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <h2>Contact Printer Support Hub</h2>
+    <p>Have a printer question? Send us a message.</p>
+
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="printer" placeholder="Printer Model">
+        <textarea name="message" placeholder="Describe your printer issue" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Printer Support Hub. All Rights Reserved.</p>
+    <p>Independent informational website. Not affiliated with any printer manufacturer.</p>
+</footer>
+
+</body>
+</html>
